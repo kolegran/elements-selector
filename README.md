@@ -72,6 +72,8 @@ Then you can get to work implementing your ideas.
 The recommended method for plugin development involves using the [Gradle][gradle] setup with the [gradle-intellij-plugin][gh:gradle-intellij-plugin] installed.
 The `gradle-intellij-plugin` makes it possible to run the IDE with your plugin and publish your plugin to JetBrains Marketplace Repository.
 
+You can use this guide as example for Gradle installing on Ubuntu: ```https://linuxize.com/post/how-to-install-gradle-on-ubuntu-18-04/```
+
 > **NOTE:** Make sure to always upgrade to the latest version of `gradle-intellij-plugin`.
 
 A project built using the IntelliJ Platform Plugin Template includes a Gradle configuration already set up.
@@ -488,7 +490,7 @@ That approach gives more possibilities for testing and debugging pre-releases, f
 [file:draft-release.png]: .github/readme/draft-release.png
 [file:gradle.properties]: ./gradle.properties
 [file:run-logs.png]: .github/readme/run-logs.png
-[file:plugin.xml]: ./src/main/resources/META-INF/plugin.xml
+[file:plugin.xml]: src/main/resources/META-INF/plugin.xml
 [file:run-debug-configurations.png]: .github/readme/run-debug-configurations.png
 [file:settings-secrets.png]: .github/readme/settings-secrets.png
 [file:template_cleanup.yml]: ./.github/workflows/template-cleanup.yml
