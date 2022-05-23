@@ -533,3 +533,5 @@ That approach gives more possibilities for testing and debugging pre-releases, f
 [gradle-lifecycle-tasks]: https://docs.gradle.org/current/userguide/java_plugin.html#lifecycle_tasks
 [kotlin-for-plugin-developers]: https://plugins.jetbrains.com/docs/intellij/kotlin.html#adding-kotlin-support
 [xpath]: https://www.w3.org/TR/xpath-21/
+
+THIS IMPLEMENTATION MADE WITH USING THE NEXT GUIDE: ```https://plugins.jetbrains.com/docs/intellij/working-with-custom-actions.html#testing-the-minimal-custom-action-implementation```
