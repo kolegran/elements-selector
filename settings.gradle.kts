@@ -1,1 +1,1 @@
-rootProject.name = "uuid-updater"
+rootProject.name = "elements-selector"
